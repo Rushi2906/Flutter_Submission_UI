@@ -1,3 +1,4 @@
+import 'package:extra_ui/card_page.dart';
 import 'package:extra_ui/detaile_page.dart';
 import 'package:extra_ui/home_page.dart';
 import 'package:extra_ui/splash_screen_page.dart';

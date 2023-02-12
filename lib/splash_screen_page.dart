@@ -33,159 +33,175 @@ class _SpalshScreenState extends State<SpalshScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Expanded(
-                    flex: 2,
-                    child: Container(
-                      padding: EdgeInsets.only(left: 30),
-                      margin: EdgeInsets.symmetric(vertical: 10),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.only(
-                            topRight: Radius.circular(50),
-                            bottomRight: Radius.circular(50)),
-                        color: Colors.white,
-                      ),
-                      height: 70,
-                      alignment: Alignment.centerLeft,
-                      child: Text(
-                        "2,000 Students",
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold
+                Container(
+                  margin: EdgeInsets.only(top: 10),
+                  height: 75,
+                  width: 270,
+                  child: Card(
+                      color: Colors.white,
+                      shape: BeveledRectangleBorder(
+                          borderRadius: BorderRadius.only(
+                              topRight: Radius.circular(30),
+                              bottomRight: Radius.circular(30))),
+                      child: Container(
+                        margin:
+                        EdgeInsets.symmetric(vertical: 22, horizontal: 30),
+                        child: Text(
+                          "2000 students",
+                          style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
                         ),
-                      ),
-                    )),
-                Expanded(child: Container())
+                      )),
+                ),
               ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Expanded(
-                    flex: 8,
-                    child: Container(
-                      padding: EdgeInsets.only(left: 30),
-                      margin: EdgeInsets.symmetric(vertical: 10),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.only(
-                            topRight: Radius.circular(50),
-                            bottomRight: Radius.circular(50)),
-                        color: Colors.black,
-                      ),
-                      height: 70,
-                      alignment: Alignment.centerLeft,
-                      child: Text(
-                        "MT Business Award 2022",
-                        style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                          color: Colors.white
+                Container(
+                  margin: EdgeInsets.only(top: 10),
+                  height: 75,
+                  width: 350,
+                  child: Card(
+                      color: Colors.black,
+                      shape: BeveledRectangleBorder(
+                          borderRadius: BorderRadius.only(
+                              topRight: Radius.circular(30),
+                              bottomRight: Radius.circular(30))),
+                      child: Container(
+                        margin:
+                        EdgeInsets.symmetric(vertical: 22, horizontal: 30),
+                        child: Text(
+                          "MT Bussiness Award 2022",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
                         ),
-                      ),
-                    )),
-                //Expanded(child: Container(child: Icon(Icons.chevron_right,size: 90,color: Colors.white),alignment: Alignment.topLeft)),
-                Expanded(child: Container())
+                      )),
+                ),
               ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Expanded(
-                    flex: 3,
-                    child: Container(
-                      padding: EdgeInsets.only(left: 30),
-                      margin: EdgeInsets.symmetric(vertical: 10),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.only(
-                            topRight: Radius.circular(50),
-                            bottomRight: Radius.circular(50)),
-                        color: Colors.white,
-                      ),
-                      height: 70,
-                      alignment: Alignment.centerLeft,
-                      child: Text(
-                        "374 Qualified coaches",
-                        style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold
+                Container(
+                  margin: EdgeInsets.only(top: 10),
+                  height: 75,
+                  width: 290,
+                  child: Card(
+                      color: Colors.white,
+                      shape: BeveledRectangleBorder(
+                          borderRadius: BorderRadius.only(
+                              topRight: Radius.circular(30),
+                              bottomRight: Radius.circular(30))),
+                      child: Container(
+                        margin:
+                        EdgeInsets.symmetric(vertical: 22, horizontal: 30),
+                        child: Text(
+                          "374 Qualified coaches",
+                          style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
                         ),
-                      ),
-                    )),
-                Expanded(child: Container())
+                      )),
+                ),
               ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Expanded(
-                    flex: 6,
-                    child: Container(
-                      padding: EdgeInsets.only(left: 30),
-                      margin: EdgeInsets.symmetric(vertical: 10),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.only(
-                            topRight: Radius.circular(50),
-                            bottomRight: Radius.circular(50)),
-                        color: Color.fromARGB(255, 100, 62, 54),
-                      ),
-                      height: 70,
-                      alignment: Alignment.centerLeft,
-                      child: Text(
-                        "45 Courses online & offline",
-                        style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                          color: Colors.white
+                Container(
+                  margin: EdgeInsets.only(top: 10),
+                  height: 75,
+                  width: 320,
+                  child: Card(
+                      color: Color.fromARGB(255, 100, 63, 55),
+                      shape: BeveledRectangleBorder(
+                          borderRadius: BorderRadius.only(
+                              topRight: Radius.circular(30),
+                              bottomRight: Radius.circular(30))),
+                      child: Container(
+                        margin:
+                        EdgeInsets.symmetric(vertical: 22, horizontal: 30),
+                        child: Text(
+                          "45 courses online & offline",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
                         ),
-                      ),
-                    )),
-                Expanded(child: Container())
+                      )),
+                ),
               ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Expanded(
-                    flex: 2,
-                    child: Container(
-                      padding: EdgeInsets.only(left: 30),
-                      margin: EdgeInsets.symmetric(vertical: 10),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.only(
-                            topRight: Radius.circular(50),
-                            bottomRight: Radius.circular(50)),
-                        color: Colors.white,
-                      ),
-                      height: 70,
-                      alignment: Alignment.centerLeft,
-                      child: Text(
-                        "6 years on the market",
-                        style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold
+                Container(
+                  margin: EdgeInsets.only(top: 10),
+                  height: 75,
+                  width: 270,
+                  child: Card(
+                      color: Colors.white,
+                      shape: BeveledRectangleBorder(
+                          borderRadius: BorderRadius.only(
+                              topRight: Radius.circular(30),
+                              bottomRight: Radius.circular(30))),
+                      child: Container(
+                        margin:
+                        EdgeInsets.symmetric(vertical: 22, horizontal: 30),
+                        child: Text(
+                          "6 years on the market",
+                          style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
                         ),
-                      ),
-                    )),
-                Expanded(child: Container())
+                      )),
+                ),
               ],
             ),
             Expanded(
-                flex: 6,
-                child: Container(
-                  margin: EdgeInsets.only(top: 30, left: 20),
-                  alignment: Alignment.topLeft,
-                  child: Text(
-                    "Find your\nfavourite\ncourses",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 70,
-
+              flex: 6,
+              child: Container(
+                margin: EdgeInsets.only(top: 30, left: 20, bottom: 30),
+                alignment: Alignment.topLeft,
+                child: Stack(children: [
+                  Container(
+                    margin: EdgeInsets.only(top: 160, left: 170),
+                    height: 70,
+                    width: 90,
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(255, 105, 160, 145),
                     ),
-                    textAlign: TextAlign.left,
+                    child: Card(
+                      shape: BeveledRectangleBorder(
+                          borderRadius: BorderRadius.only(
+                              topRight: Radius.circular(28),
+                              bottomRight: Radius.circular(28))),
+                    ),
                   ),
-                )),
+                  Container(
+                    margin: EdgeInsets.only(left: 10),
+                    child: Text(
+                      "Find your\nfavourite\ncourse",
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 65,
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                ]),
+              ),
+            ),
           ],
-        ),
+        )
       ),
     );
   }
